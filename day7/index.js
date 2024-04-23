@@ -83,4 +83,6 @@ const characters = [
     },
 ];
 
+//***REDUCE***
 
+const getTotalMass = characters.reduce(callbackFn);
